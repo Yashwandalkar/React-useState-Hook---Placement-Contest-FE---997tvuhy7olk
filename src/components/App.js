@@ -3,6 +3,20 @@ import '../styles/App.css';
 import React, { useState } from 'react';
 
 export default function App() {
+ const[inputValue,setInputValue]=useState("");
+ const[text,setText]=usestate("");
+                              
+                              
+                              
+   const changeInput=(e)=>{
+  setInputValue(e.target.value);
+ };
+ 
+ const buttonClick=()=>{
+  
+  setText(text + inputValue);
+  setInputValue("");
+   };
  //code here 
 
  
